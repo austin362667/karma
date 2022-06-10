@@ -60,8 +60,8 @@ const findContributor = async (login) => {
     return result[0]
 };
 
-const karmaToken = "BBG";
-const polygonRPCUrl = "https://polygon-rpc.com";
+const karmaToken = "ASTN";
+const polygonRPCUrl = "https://matic-mumbai.chainstacklabs.com";
 const polygonHttpProvider = new Web3.providers.HttpProvider(polygonRPCUrl);
 
 // const web3 = new Web3(polygonProvider Web3.givenProvider);
